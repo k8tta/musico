@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Genre:</strong>
+  <%= @music.genre %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @music.title %>
+</p>
+
+<p>
+  <strong>Jacket:</strong>
+  <%= @music.jacket %>
+</p>
+
+<p>
+  <strong>Album:</strong>
+  <%= @music.album %>
+</p>
+
+<p>
+  <strong>Publish:</strong>
+  <%= @music.publish %>
+</p>
+
+<p>
+  <strong>Published:</strong>
+  <%= @music.published %>
+</p>
+
+<p>
+  <strong>Youtube:</strong>
+  <%= @music.youtube %>
+</p>
+
+<%= link_to 'Edit', edit_artist_music_path(@music.artist, @music) %> |
+<%= link_to 'Back', action: :index, artist_id: @music.artist.id %>

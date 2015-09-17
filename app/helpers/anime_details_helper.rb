@@ -1,0 +1,2 @@
+module AnimeDetailsHelper
+end

@@ -1,0 +1,91 @@
+// Place all the styles related to the anime_titles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Top面サムネにした背景画像をマウスオーバーで光らせる
+.backgroundbrink:hover{
+  opacity: 0.8;
+}
+.backgroundbrink a{
+  display: block;
+}
+
+
+// Top面のサムネのボタン
+.thumbbutton{
+  position: absolute;
+  //top: 0;
+  bottom: 0;
+  left: 20%;
+  right: 20%;
+  margin: auto;
+}
+
+// showページの画像レイアウト
+.animetitleimage {
+  max-width: 500px;
+  max-height: 100%;
+  overflow: scroll;
+  margin-left: auto;
+  margin-right: auto;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.animetitleimage img {
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+// topの画像トリミング
+//.thumbsquare{
+//  overflow: hidden;
+//  background-size: cover;
+//  background: 50% 50% no-repeat;
+//  height: 250px;
+//}
+
+// animetitle_showページのヘッダ画像
+#animetitlewrap {
+  margin-top: -70px;
+  padding-top: 150px;
+  text-align:center;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 150px;
+  width: 100%;
+
+  //-webkit-background-size: 100%;
+  //-moz-background-size: 100%;
+  //-o-background-size: 100%;
+  //background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#animetitlewrap h1 {
+  color:#ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: black 1px 1px 0px;
+
+}
+
+#animetitlewrap h4 {
+  font-weight: 400;
+  color: #ffffff
+}

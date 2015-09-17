@@ -1,0 +1,41 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+kekkai1:
+  anime_title: label1
+  profile: 原作：内藤泰弘（ジャンプSQ） 監督：松本理恵 脚本：古家和尚 音楽：岩崎太整 アニメーション製作：ボンズ
+  op_title: Hello,world!
+  op_artist: BUMP OF CHICKEN
+  op_movie: https://www.youtube.com/embed/rOU4YiuaxAM
+  ed_title: シュガーソングとビターステップ
+  ed_artist: UNISON SQUARE GARDEN
+  ed_movie: https://www.youtube.com/embed/3exsRhw3xt8
+
+gakkou1:
+  anime_title: gakkou
+  profile: 原作：海法紀光 x 千葉サドル（まんがタイムきららフォワード） 監督：安藤正臣 脚本：海法紀光 他 音楽：MOSAIC.WAV アニメーション製作：Lerche
+  op_title: ふ・れ・ん・ど・し・た・い
+  op_artist: 学園生活部（水瀬いのり、小澤亜季、Ｍ・Ａ・Ｏ、高橋季依）
+  op_movie: https://www.youtube.com/embed/UNjHxhljAck
+  ed_title: ハーモナイズ・クローバー
+  ed_artist: 黒崎真音
+  ed_movie: https://www.youtube.com/embed/c6hQUJsBPdg
+
+dyurarara2syo1:
+  anime_title: dyurarara2syo
+  profile: 原作：成田良悟（電撃文庫） 監督：大森貴弘 シリーズ構成：高木登 音楽：吉森信 アニメーション製作：朱夏
+  op_title: HEADHUNT
+  op_artist: OKAMOTO'S
+  op_movie: https://www.youtube.com/embed/Yh7CLxsp26s
+  ed_title: NEVER SAY NEVER
+  ed_artist: THREE LIGHTS DOWN KINGS
+  ed_movie: https://www.youtube.com/embed/a3DR_8IneJo
+
+jitsuha1:
+  anime_title: jitsuha
+  profile: 原作：増田英二（週間少年チャンピオン） 監督：山本靖貴 脚本：山下憲一 アニメーション製作：トムス・エンタテインメント
+  op_title: ひみつをちょーだい
+  op_artist: アルスマグナ
+  op_movie: https://www.youtube.com/embed/_NRi9Nz_wSs
+  ed_title: 言えない　言えない
+  ed_artist: Hilcrhyme
+  ed_movie: https://www.youtube.com/embed/2NyLCplhh04

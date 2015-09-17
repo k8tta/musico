@@ -1,0 +1,20 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Theme Name: Basic
+ * URL: http://blacktie.co
+ * Version: 1.0
+ */
+
+/* テーマから必要なcssだけを抽出 */
+/* anime_details/_staffandcastで利用 */
+.ptb {padding-top: 80px; padding-bottom: 80px;}
+
+.centered {text-align: center}
+/* grey section */
+#g {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f5f5f5;
+}

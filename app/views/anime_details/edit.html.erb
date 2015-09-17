@@ -1,0 +1,10 @@
+<div id="animedetailwrap" style="background-image: url(/assets/back.jpg);">
+</div><! --/headerwrap -->
+
+
+<h1>Editing Anime Detail</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', action: :show, anime_title_id: @anime_detail.anime_title_id, id: @anime_detail.id %> |
+<%= link_to 'Back', action: :index, anime_title_id: @anime_detail.anime_title_id %>

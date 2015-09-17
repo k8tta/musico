@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+label1:
+  title: 血界戦線
+  icon_url: http://www.famitsu.com/images/000/067/184/548062bf3e3ed.jpg
+  icon: 
+
+gakkou:
+  title: がっこうぐらし！
+  icon_url: http://livedoor.blogimg.jp/jin115/imgs/7/9/79e460de.jpg
+  icon: 
+
+dyurarara2syo:
+  title: デュラララ!!×２ 承
+  icon_url: http://imgc.nxtv.jp/img/info/title/048/47729_hvgaw.png?output-quality=30&output-format=jpg
+  icon:
+
+jitsuha:
+  title: 実は私は
+  icon_url: http://com.res.nimg.jp/material/2864595/main.jpg
+  icon:

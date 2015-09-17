@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<div id="animetitlewrap", style="background-image: url(<%= @anime_title.icon_url %>);">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3">
+        <h1><%= @anime_title.title %></h1>
+      </div>
+    </div><! --/row -->
+  </div> <!-- /container -->
+</div><! --/headerwrap -->
+
+<div class="container">
+  <div class="row centered">
+    <p><strong>アニメタイトル:</strong></p>
+    <h2><%= @anime_title.title %></h2>
+    <div class="animetitleimage">
+      <img src="<%= @anime_title.icon_url %>">
+    </div>
+  </div>
+</div>
+<p>
+  <%= link_to 'タイトル情報を編集する', edit_anime_title_path(@anime_title), :class => 'mt btn btn-primary btn-xs' %>
+</p>
+
+<hr>
+
+<p>
+  <!-- details -->
+  <%= render partial: 'anime_details/staffandcast', locals: { anime_title: @anime_title, anime_details: @anime_details } %>
+</p>
+
+<br>
+<p>
+  <strong>このアニメのOP/ED情報を追加</strong><br>
+  <%= link_to('情報の追加', {controller: :anime_details, action: :new, anime_title_id: @anime_title.id}, :class => 'btn btn-primary btn-sm' ) %>
+</p>
+<p>
+  <strong>このアニメのOP/ED情報を表示</strong><br>
+  <%= link_to('情報の表示', {controller: :anime_details, action: :index, anime_title_id: @anime_title.id}, :class => 'btn btn-primary btn-sm' ) %>
+</p>
+<br>
+<%= link_to 'アニメタイトル一覧', anime_titles_path %>  |
+<%= link_to 'トップへ', root_path %>

@@ -1,0 +1,56 @@
+<div id="animedetailwrap" style="background-image: url(/assets/back.jpg);">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3">
+        <h1>アニメタイトル一覧</h1>
+        <h4>ここはあってもいみないかも</h4>
+      </div>
+    </div><! --/row -->
+  </div> <!-- /container -->
+</div><! --/headerwrap -->
+
+<h1><%= @anime_title.title %> Listing Anime Details</h1>
+<p id="notice"><%= notice %></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Anime title</th>
+      <th>Profile</th>
+      <th>Op title</th>
+      <th>Op artist</th>
+      <th>Op movie</th>
+      <th>Ed title</th>
+      <th>Ed artist</th>
+      <th>Ed movie</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @anime_details.each do |anime_detail| %>
+      <tr>
+        <td><%= anime_detail.anime_title_id %></td>
+        <td><%= anime_detail.profile %></td>
+        <td><%= anime_detail.op_title %></td>
+        <td><%= anime_detail.op_artist %></td>
+        <td><%= anime_detail.op_movie %></td>
+        <td><%= anime_detail.ed_title %></td>
+        <td><%= anime_detail.ed_artist %></td>
+        <td><%= anime_detail.ed_movie %></td>
+        <td>
+          <%= link_to '表示', action: :show, anime_title_id: anime_detail.anime_title_id, id: anime_detail.id %>
+          <%= link_to '編集', action: :edit, anime_title_id: anime_detail.anime_title_id, id: anime_detail.id %>
+          <%= link_to '削除', {action: :destroy, anime_title_id: anime_detail.anime_title_id, id: anime_detail.id}, {method: :delete, data: {confirm: '削除してよろしいですか？'}} %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Anime detail', controller: :anime_details, action: :new, anime_title_id: @anime_title.id %>
+<hr>
+<%= link_to 'アニメタイトル一覧', anime_titles_path %>  |
+<%= link_to 'トップへ', root_path %>
