@@ -1,5 +1,7 @@
 class AnimeDetail < ActiveRecord::Base
   belongs_to :anime_title
 
-  validates :profile, presence: true  # プロフィールが空の場合エラー
+  validates :op_title, presence: true  # OPtitleが空の場合エラー
+  validates :ed_title, presence: true  # EDtitleが空の場合エラー
+
 end
