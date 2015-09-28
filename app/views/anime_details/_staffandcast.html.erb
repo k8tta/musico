@@ -1,10 +1,9 @@
 
 <dev class="container ptb">
   <div class="row">
-    <h2 class="centered mb">スタッフなど</h2>
+    <h2 class="centered mb">スタッフ情報</h2>
     <% @anime_details.each do |anime_detail| %>
         <p class="centered mb"><%= anime_detail.profile %></p>
-        <br>
     <% end %>
   </div><!-- /row -->
 </dev><!-- /.container -->
@@ -15,8 +14,8 @@
       <h2>オープニングテーマ</h2>
       <% @anime_details.each do |anime_detail| %>
         <div class="col-md-8 col-md-offset-2">
-          <p>artist: <%= anime_detail.op_artist %></p>
-          <p>title: <%= anime_detail.op_title %></p><br/>
+          <br><p>artist:<span class="h3"> <%= anime_detail.op_artist %></span></p>
+          <p>title:<span class="h3"> <%= anime_detail.op_title %></span></p>
           <div class="youtube-container">
             <iframe id="player" type="text/html" width="640" height="390"
                     src="<%= anime_detail.op_movie %>"
@@ -35,15 +34,15 @@
     <div class="row centered">
       <h2>エンディングテーマ</h2>
       <% @anime_details.each do |anime_detail| %>
-          <div class="col-md-8 col-md-offset-2">
-            <p>artist: <%= anime_detail.ed_artist %></p>
-            <p>title: <%= anime_detail.ed_title %></p><br/>
-            <div class="youtube-container">
-              <iframe id="player" type="text/html" width="640" height="390"
-                      src="<%= anime_detail.ed_movie %>"
-                      frameborder="0"></iframe>
-            </div>
-          </div><!-- /col-md-8 -->
+        <div class="col-md-8 col-md-offset-2">
+          <br><p>artist:<span class="h3"> <%= anime_detail.ed_artist %></span></p>
+          <p>title:<span class="h3"> <%= anime_detail.ed_title %></span></p>
+          <div class="youtube-container">
+            <iframe id="player" type="text/html" width="640" height="390"
+                    src="<%= anime_detail.ed_movie %>"
+                    frameborder="0"></iframe>
+          </div>
+        </div><!-- /col-md-8 -->
       <% end %>
     </div><!-- /row -->
   </div><!-- /.container -->
