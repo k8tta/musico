@@ -1,4 +1,5 @@
-<div id="animetitlewrap", style="background-image: url(<%= @anime_title.icon_url %>);">
+
+<div id="animetitlewrap" style="background-image: url(<%= @anime_title.icon_url %>);">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-lg-offset-3">
@@ -12,7 +13,7 @@
 
 <div class="container">
   <div class="row centered">
-    <p><strong>アニメタイトル:</strong></p>
+    <strong>アニメタイトル:</strong>
     <h2><%= @anime_title.title %></h2>
     <div class="animetitleimage">
       <img src="<%= @anime_title.icon_url %>">
@@ -25,10 +26,8 @@
 
 <hr>
 
-<p>
   <!-- details -->
   <%= render partial: 'anime_details/staffandcast', locals: { anime_title: @anime_title, anime_details: @anime_details } %>
-</p>
 
 <br>
 <p>

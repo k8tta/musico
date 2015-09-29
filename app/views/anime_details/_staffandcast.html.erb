@@ -1,28 +1,30 @@
 
-<dev class="container ptb">
-  <div class="row">
-    <h2 class="centered mb">スタッフ情報</h2>
-    <% @anime_details.each do |anime_detail| %>
-        <p class="centered mb"><%= anime_detail.profile %></p>
-    <% end %>
+<div class="container ptb">
+  <div class="row centered">
+    <div class="col-md-8 col-md-offset-2">
+      <h2>スタッフ情報</h2>
+      <% @anime_details.each do |anime_detail| %>
+          <p class="mb"><%= anime_detail.profile %></p>
+      <% end %>
+    </div>
   </div><!-- /row -->
-</dev><!-- /.container -->
+</div><!-- /.container -->
 
 <div id="g">
   <div class="container">
     <div class="row centered">
-      <h2>オープニングテーマ</h2>
-      <% @anime_details.each do |anime_detail| %>
-        <div class="col-md-8 col-md-offset-2">
-          <br><p>artist:<span class="h3"> <%= anime_detail.op_artist %></span></p>
-          <p>title:<span class="h3"> <%= anime_detail.op_title %></span></p>
-          <div class="youtube-container">
-            <iframe id="player" type="text/html" width="640" height="390"
-                    src="<%= anime_detail.op_movie %>"
-                    frameborder="0"></iframe>
-          </div>
-        </div><!-- /col-md-8 -->
-      <% end %>
+      <div class="col-md-8 col-md-offset-2">
+        <h2>オープニングテーマ</h2>
+        <% @anime_details.each do |anime_detail| %>
+            <br><p>artist:<span class="h3"> <%= anime_detail.op_artist %></span></p>
+            <p>title:<span class="h3"> <%= anime_detail.op_title %></span></p>
+            <div class="youtube-container">
+              <iframe id="player" type="text/html" width="640" height="390"
+                      src="<%= anime_detail.op_movie %>"
+                      frameborder="0"></iframe>
+            </div>
+        <% end %>
+      </div><!-- /col-md-8 -->
     </div><!-- /row -->
   </div><!-- /.container -->
 </div>
