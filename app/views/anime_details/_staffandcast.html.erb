@@ -20,25 +20,10 @@
                 <br><p>artist:<span class="h3"> <%= anime_detail.op_artist %></span></p>
                 <p>title:<span class="h3"> <%= anime_detail.op_title %></span></p>
                 <% if /\/watch\/([^&]+)/ =~ anime_detail.op_movie  #niconico %>
-                    <div id="nico_player">
+                    <div class="nico_player">
+                      <script type="text/javascript" src="http://ext.nicovideo.jp/thumb_watch/<%= $1 %>"></script>
+                      <noscript><a href="http://www.nicovideo.jp/watch/<%= $1 %>">ニコニコ動画リンク</a></noscript>
                     </div>
-                    <p><script type="text/javascript">
-                        $(function(){
-                            document._write = document.write;
-                            document.write = function(msg) {
-                                // id名nico_playerに表示させる
-                                $("#nico_player").html(msg);
-                                //document.writeを元に戻す
-                                document.write = document._write;
-                            }
-                            var src = "http://ext.nicovideo.jp/thumb_watch/<%= $1 %>";
-                            var dst = $("<scr"+"ipt>");  //タグと間違われないようにsplit
-                            dst.attr("type", "text/javascript");
-                            dst.attr("src", src);
-                            //追加
-                            $("body").append(dst);
-                        });
-                    </script></p>
                 <% elsif /\?v=([^&]+)/ =~ anime_detail.op_movie  #youtube %>
                     <div class="youtube-container">
                       <iframe id="player" type="text/html" width="640" height="390"
@@ -60,36 +45,16 @@
     <div class="row centered">
       <div class="col-md-8 col-md-offset-2">
         <h2>エンディングテーマ</h2>
-        <% ed_mov = 1 %>
         <% @anime_details.each do |anime_detail| %>
             <% if anime_detail.ed_artist? %>
                 <br><p>artist:<span class="h3"> <%= anime_detail.ed_artist %></span></p>
                 <p>title:<span class="h3"> <%= anime_detail.ed_title %></span></p>
                 <% if /\/watch\/([^&]+)/ =~ anime_detail.ed_movie  #niconico %>
-                    <div class="nico_player" id="nico<%= ed_mov %>">
+                    <div class="nico_player">
+                      <script type="text/javascript" src="http://ext.nicovideo.jp/thumb_watch/<%= $1 %>"></script>
+                      <noscript><a href="http://www.nicovideo.jp/watch/<%= $1 %>">ニコニコ動画リンク</a></noscript>
                     </div>
-                    <%= anime_detail.ed_movie %>
-
-                    <p><script type="text/javascript">
-                        $(function(){
-                            document._write = document.write;
-                            document.write = function(msg) {
-                                // id名niconumに表示させる
-                                $("#nico<%= ed_mov %>").html(msg);
-                                //document.writeを元に戻す
-                                document.write = document._write;
-                            }
-                            var src = "http://ext.nicovideo.jp/thumb_watch/<%= $1 %>";
-                            var dst = $("<scr"+"ipt>");  //タグと間違われないようにsplit
-                            dst.attr("type", "text/javascript");
-                            dst.attr("src", src);
-                            //追加
-                            $("body").append(dst);
-                        });
-                    </script></p>
-                    <% ed_mov += 1 %>
-
-      <% elsif /\?v=([^&]+)/ =~ anime_detail.ed_movie #youtube %>
+                <% elsif /\?v=([^&]+)/ =~ anime_detail.ed_movie #youtube %>
                     <div class="youtube-container">
                       <iframe id="player" type="text/html" width="640" height="390"
                               src="https://www.youtube.com/embed/<%= $1 %>"
