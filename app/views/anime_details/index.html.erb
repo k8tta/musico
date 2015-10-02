@@ -9,51 +9,54 @@
   </div> <!-- /container -->
 </div><! --/headerwrap -->
 
-<h1><%= @anime_title.title %> Listing Anime Details</h1>
-<p id="notice"><%= notice %></p>
+<div class="container">
+  <h1><%= @anime_title.title %> Listing Anime Details</h1>
+  <p id="notice"><%= notice %></p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Anime title</th>
-      <th>Profile</th>
-      <th>Op title</th>
-      <th>Op artist</th>
-      <th>Op movie</th>
-      <th>Ed title</th>
-      <th>Ed artist</th>
-      <th>Ed movie</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+  <div class="table-responsive">
+    <table class="table table-striped table-bordered table-condensed newline">
+      <thead>
+        <tr>
+          <!-- Anime titleは非表示 -->
+          <th colspan="1"></th>
+          <th class="col-xs-2 col-ms-2 col-md-2 col-lg-1">Profile</th>
+          <th class="col-xs-2 col-ms-2 col-md-2 col-lg-2">Op title</th>
+          <th class="col-xs-1 col-ms-1 col-md-1 col-lg-2">Op artist</th>
+          <th class="col-xs-1 col-ms-1 col-md-1 col-lg-1">Op movie</th>
+          <th class="col-xs-2 col-ms-2 col-md-2 col-lg-2">Ed title</th>
+          <th class="col-xs-1 col-ms-1 col-md-1 col-lg-2">Ed artist</th>
+          <th class="col-xs-1 col-ms-1 col-md-1 col-lg-1">Ed movie</th>
+        </tr>
+      </thead>
 
-  <tbody>
-    <% @anime_details.each do |anime_detail| %>
-      <tr>
-        <td><%= anime_detail.anime_title_id %></td>
-        <td><%= anime_detail.profile %></td>
-        <td><%= anime_detail.op_title %></td>
-        <td><%= anime_detail.op_artist %></td>
-        <td><%= anime_detail.op_movie %></td>
-        <td><%= anime_detail.ed_title %></td>
-        <td><%= anime_detail.ed_artist %></td>
-        <td><%= anime_detail.ed_movie %></td>
-        <td>
-          <%= link_to '表示', action: :show, anime_title_id: anime_detail.anime_title_id, id: anime_detail.id %>
-          <%= link_to '編集', action: :edit, anime_title_id: anime_detail.anime_title_id, id: anime_detail.id %>
-          <%= link_to '削除', {action: :destroy, anime_title_id: anime_detail.anime_title_id, id: anime_detail.id}, {method: :delete, data: {confirm: '削除してよろしいですか？'}} %>
-        </td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+      <tbody>
+        <% @anime_details.each do |anime_detail| %>
+          <tr>
+            <!-- anime_detail.anime_title_id は非表示 %-->
+            <td class="col-xs-1 col-ms-1 col-md-1 col-lg-1">
+              <%= link_to '表示', action: :show, anime_title_id: anime_detail.anime_title_id, id: anime_detail.id %><br>
+              <%= link_to '編集', action: :edit, anime_title_id: anime_detail.anime_title_id, id: anime_detail.id %><br>
+              <%= link_to '削除', {action: :destroy, anime_title_id: anime_detail.anime_title_id, id: anime_detail.id}, {method: :delete, data: {confirm: '削除してよろしいですか？'}} %>
+            </td>
+            <td class="col-xs-2 col-ms-2 col-md-2 col-lg-1 fontmini"><%= anime_detail.profile %></td>
+            <td class="col-xs-2 col-ms-2 col-md-2 col-lg-2"><%= anime_detail.op_title %></td>
+            <td class="col-xs-1 col-ms-1 col-md-1 col-lg-2"><%= anime_detail.op_artist %></td>
+            <td class="col-xs-1 col-ms-1 col-md-1 col-lg-1 fontmini"><%= anime_detail.op_movie %></td>
+            <td class="col-xs-2 col-ms-2 col-md-2 col-lg-2"><%= anime_detail.ed_title %></td>
+            <td class="col-xs-1 col-ms-1 col-md-1 col-lg-2"><%= anime_detail.ed_artist %></td>
+            <td class="col-xs-1 col-ms-1 col-md-1 col-lg-1 fontmini"><%= anime_detail.ed_movie %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>
+
 
 <br>
 
-<%= link_to 'New Anime detail', controller: :anime_details, action: :new, anime_title_id: @anime_title.id %>
-<br>
+<%= link_to 'New Anime detail', controller: :anime_details, action: :new, anime_title_id: @anime_title.id %> |
 <%= link_to 'アニメタイトルに戻る', controller: :anime_titles, action: :show, id: @anime_title.id %>
-
 
 <hr>
 <%= link_to 'アニメタイトル一覧', anime_titles_path %>  |

@@ -70,3 +70,14 @@
   font-weight: 400;
   color: #ffffff
 }
+
+//table-responsiveでテーブル内要素が折り返されるようにする
+.newline {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+//anime_detailのテーブル用
+.fontmini{
+  font-size:10px;
+}
