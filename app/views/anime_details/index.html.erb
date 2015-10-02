@@ -51,6 +51,10 @@
 <br>
 
 <%= link_to 'New Anime detail', controller: :anime_details, action: :new, anime_title_id: @anime_title.id %>
+<br>
+<%= link_to 'アニメタイトルに戻る', controller: :anime_titles, action: :show, id: @anime_title.id %>
+
+
 <hr>
 <%= link_to 'アニメタイトル一覧', anime_titles_path %>  |
 <%= link_to 'トップへ', root_path %>

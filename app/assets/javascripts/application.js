@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+// require turbolinks
 // bootstrap-sprockets and bootstrap should not both be included in application.js
 //= require bootstrap-sprockets
 //= require_tree .
