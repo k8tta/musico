@@ -6,7 +6,7 @@ class HomeController < ApplicationController
 
   # GET '/about'
   def about
-    # render layout: 'application2'
+    render layout: 'applicationabout'
   end
 
   # GET '/about'

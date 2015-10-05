@@ -69,6 +69,13 @@ class MusicsController < ApplicationController
     end
   end
 
+  # shaoさんが書いた外部ソース情報取得サンプル GET /musics/find_video.json?title=あああ
+  def find_video
+    response = JSON.parse(RestClient.get "http://www.youtube.com/search?q=#{params[:title]}")
+    # => response = { results: [ {title: 'あああ', id: 'hogehoge'} ]}
+    @youtube_id = response['results'].find{|r| r['title'] == 'あああ'}['id']
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_music
