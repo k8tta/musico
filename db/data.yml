@@ -1,0 +1,247 @@
+
+---
+anime_details:
+  columns:
+  - id
+  - anime_title_id
+  - profile
+  - op_title
+  - op_artist
+  - op_movie
+  - ed_title
+  - ed_artist
+  - ed_movie
+  - created_at
+  - updated_at
+  records: 
+  - - 302859809
+    - 718169765
+    - "原作：海法紀光 x 千葉サドル（まんがタイムきららフォワード） 監督：安藤正臣 脚本：海法紀光 他 音楽：MOSAIC.WAV アニメーション製作：Lerche"
+    - "ふ・れ・ん・ど・し・た・い"
+    - "学園生活部（水瀬いのり、小澤亜季、Ｍ・Ａ・Ｏ、高橋季依）"
+    - https://www.youtube.com/watch?v=UNjHxhljAck
+    - "ハーモナイズ・クローバー"
+    - "黒崎真音"
+    - https://www.youtube.com/watch?v=c6hQUJsBPdg
+    - '2015-09-14 10:33:10'
+    - '2015-10-01 08:32:04.464343'
+  - - 584392216
+    - 755180205
+    - "原作：内藤泰弘（ジャンプSQ） 監督：松本理恵 脚本：古家和尚 音楽：岩崎太整 アニメーション製作：ボンズ"
+    - Hello,world!
+    - BUMP OF CHICKEN
+    - https://www.youtube.com/watch?v=rOU4YiuaxAM
+    - "シュガーソングとビターステップ"
+    - UNISON SQUARE GARDEN
+    - https://www.youtube.com/watch?v=3exsRhw3xt8
+    - '2015-09-14 10:33:10'
+    - '2015-10-01 08:32:24.126126'
+  - - 603664142
+    - 757252576
+    - "原作：増田英二（週間少年チャンピオン） 監督：山本靖貴 脚本：山下憲一 アニメーション製作：トムス・エンタテインメント"
+    - "ひみつをちょーだい"
+    - "アルスマグナ"
+    - https://www.youtube.com/watch?v=_NRi9Nz_wSs
+    - "言えない　言えない"
+    - Hilcrhyme
+    - https://www.youtube.com/watch?v=2NyLCplhh04
+    - '2015-09-14 10:33:10'
+    - '2015-10-02 09:13:37.336651'
+  - - 764603284
+    - 6621187
+    - "原作：成田良悟（電撃文庫） 監督：大森貴弘 シリーズ構成：高木登 音楽：吉森信 アニメーション製作：朱夏"
+    - HEADHUNT
+    - OKAMOTO'S
+    - https://www.youtube.com/watch?v=Yh7CLxsp26s
+    - NEVER SAY NEVER
+    - THREE LIGHTS DOWN KINGS
+    - https://www.youtube.com/watch?v=a3DR_8IneJo
+    - '2015-09-14 10:33:10'
+    - '2015-10-01 08:31:38.589142'
+  - - 764603285
+    - 757252577
+    - "原作：衛藤ヒロユキ　監督：中西伸彰　制作：本橋浩一　音楽：中村暢之　アニメーション制作：日本アニメーション"
+    - MAGIC OF LOVE
+    - TOo's（鈴木蘭々）
+    - https://www.youtube.com/watch?v=fmO8bZlyK-U
+    - Wind Climbing 〜風にあそばれて〜
+    - "奥井亜紀"
+    - https://www.youtube.com/watch?v=lRa95E0TdkQ
+    - '2015-09-28 07:48:17.749099'
+    - '2015-10-02 09:14:14.058109'
+  - - 764603286
+    - 757252577
+    - ''
+    - "晴れてハレルヤ"
+    - "奥井亜紀"
+    - https://www.youtube.com/watch?v=1krrSuG5inw
+    - "もう止まらない"
+    - SLAP STICKS
+    - https://www.youtube.com/watch?v=CS2U9IDDk9A
+    - '2015-09-28 07:51:45.890123'
+    - '2015-10-02 09:14:38.104544'
+  - - 764603287
+    - 757252578
+    - "原作：5pb./Nitroplus（ゲーム）　監督：佐藤卓哉、浜崎博嗣（第25話のみ）　シリーズ構成：花田十輝　音楽：阿保剛、村上純　アニメーション制作：WHITE
+      FOX"
+    - Hacking to the Gate
+    - "いとうかなこ"
+    - https://www.youtube.com/watch?v=sJEGb4MPV6I
+    - "刻司ル十二ノ盟約"
+    - "ファンタズム（FES cv.榊原ゆい）"
+    - https://www.youtube.com/watch?v=E_q9maUnWes
+    - '2015-09-29 07:08:00.650602'
+    - '2015-10-02 09:15:39.137330'
+  - - 764603288
+    - 757252578
+    - ''
+    - Hacking to the Gate（23~24話）
+    - "いとうかなこ"
+    - https://www.youtube.com/watch?v=7b1rKpMg9Ks
+    - "スカイクラッドの観測者（23話）"
+    - "いとうかなこ"
+    - https://www.youtube.com/watch?v=MpA9lc0ezXA
+    - '2015-09-29 07:10:09.202875'
+    - '2015-10-02 09:15:52.174989'
+  - - 764603289
+    - 757252578
+    - ''
+    - "-"
+    - ''
+    - ''
+    - Another Heaven（24話）
+    - "いとうかなこ"
+    - https://www.youtube.com/watch?v=1uaCHFe4YKE
+    - '2015-09-29 07:40:26.075030'
+    - '2015-10-02 09:16:11.113671'
+  - - 764603290
+    - 757252579
+    - "原作：あづち涼（月刊コミックブレイド）　監督・シリーズ構成：上坪亮樹　脚本：鴻野貴光、木村暢、石田健幸、黒田洋介　音楽：虹音（松田 彬人）　アニメーション制作：XEBEC"
+    - "るーるぶっくを忘れちゃえ"
+    - ULTRA-PRISM with 白玉中ソフトテニス部［春風明日菜（伊藤かな恵）、沢夏琴音（喜多村英梨）、秋山千歳（伊藤静）、冬川来栖（明坂聡美）、エリザベス・ウォーレン（矢作紗友里）］
+    - https://www.youtube.com/watch?v=RjjFmmBeMhw
+    - "つまさきだち"
+    - "伊藤かな恵"
+    - https://www.youtube.com/watch?v=OjJpZexoicU
+    - '2015-09-29 07:57:10.815185'
+    - '2015-10-02 09:16:46.620818'
+  - - 764603291
+    - 757252580
+    - "原作：GAINAX　監督：今石洋之　シリーズ構成：中島かずき　音楽：岩崎琢　アニメーション制作：GAINAX"
+    - "空色デイズ"
+    - "中川翔子"
+    - https://www.youtube.com/watch?v=3RWxtMft_zA
+    - UNDERGROUND
+    - HIGH VOLTAGE
+    - https://www.youtube.com/watch?v=AyFlycSVonU
+    - '2015-09-29 08:08:18.729853'
+    - '2015-10-02 09:17:42.828471'
+  - - 764603292
+    - 757252580
+    - ''
+    - "空色デイズ（17話〜）"
+    - "中川翔子"
+    - https://www.youtube.com/watch?v=RTdiA-A2UQ4
+    - "みんなのピース"
+    - "アフロマニア"
+    - https://www.youtube.com/watch?v=LXe17ZvszfQ
+    - '2015-09-29 08:11:26.071420'
+    - '2015-10-02 06:18:08.008346'
+  - - 764603293
+    - 757252580
+    - ''
+    - "-"
+    - ''
+    - ''
+    - happily ever after
+    - "中川翔子"
+    - https://www.youtube.com/watch?v=3zhFr66gSZQ
+    - '2015-09-29 08:12:50.241990'
+    - '2015-10-02 09:17:21.863161'
+  - - 764603294
+    - 757252581
+    - "原作：有沢まみず（電撃文庫）　監督：草川啓造　シリーズ構成：玉井☆豪　音楽：いぬかみっ!アンサンブル（菊地創）　アニメーション制作：セブン・アークス"
+    - "ヒカリ"
+    - "堀江由衣"
+    - https://www.youtube.com/watch?v=AtslTXqWP5c
+    - "友情物語"
+    - Aice5
+    - http://www.nicovideo.jp/watch/sm8539552
+    - '2015-09-29 09:27:54.441979'
+    - '2015-09-30 02:45:54.817179'
+  - - 764603295
+    - 757252581
+    - ''
+    - "-"
+    - ''
+    - ''
+    - "友情物語・男子(?)バージョン"
+    - "すーぱーぞうさんず&Rice5"
+    - http://www.nicovideo.jp/watch/sm11256
+    - '2015-09-30 06:17:29.485391'
+    - '2015-09-30 06:17:29.485391'
+
+---
+anime_titles:
+  columns:
+  - id
+  - title
+  - icon_url
+  - icon
+  - created_at
+  - updated_at
+  records: 
+  - - 6621187
+    - "デュラララ!!×２ 承"
+    - http://imgc.nxtv.jp/img/info/title/048/47729_hvgaw.png?output-quality=30&output-format=jpg
+    - 
+    - '2015-09-14 10:26:49'
+    - '2015-09-14 10:26:49'
+  - - 718169765
+    - "がっこうぐらし！"
+    - http://livedoor.blogimg.jp/jin115/imgs/7/9/79e460de.jpg
+    - 
+    - '2015-09-14 10:26:49'
+    - '2015-09-14 10:26:49'
+  - - 755180205
+    - "血界戦線"
+    - http://www.famitsu.com/images/000/067/184/548062bf3e3ed.jpg
+    - 
+    - '2015-09-14 10:26:49'
+    - '2015-09-14 10:26:49'
+  - - 757252576
+    - "実は私は"
+    - http://com.res.nimg.jp/material/2864595/main.jpg
+    - 
+    - '2015-09-14 10:26:49'
+    - '2015-09-14 10:26:49'
+  - - 757252577
+    - "魔法陣グルグル"
+    - http://livedoor.blogimg.jp/ridoairu/imgs/e/5/e570b874.jpg
+    - ''
+    - '2015-09-16 09:00:13.432490'
+    - '2015-09-16 09:00:13.432490'
+  - - 757252578
+    - STEINS;GATE
+    - http://www.nitroplus.co.jp/assets_c/2011/04/110413_sg_anime-thumb-400x400-1673.jpg
+    - ''
+    - '2015-09-29 07:00:58.204409'
+    - '2015-09-29 07:08:50.296736'
+  - - 757252579
+    - "そふてにっ"
+    - http://darekare.jp/wp-content/uploads/2015/09/img_0%EF%BC%96%EF%BC%95%EF%BC%96.jpg
+    - ''
+    - '2015-09-29 07:50:47.261314'
+    - '2015-09-29 07:50:47.261314'
+  - - 757252580
+    - "天元突破グレンラガン"
+    - http://blog-imgs-43.fc2.com/i/p/h/iphonea/20110208101623685.jpg
+    - ''
+    - '2015-09-29 08:04:20.821544'
+    - '2015-09-29 08:04:20.821544'
+  - - 757252581
+    - "いぬかみっ!"
+    - https://images-na.ssl-images-amazon.com/images/I/51BlmtKxq6L.jpg
+    - ''
+    - '2015-09-29 08:52:35.228950'
+    - '2015-09-29 08:52:35.228950'

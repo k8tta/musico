@@ -11,6 +11,8 @@ gem 'simple_form'
 # Compassを追加
 gem 'compass'
 
+# dump DB
+gem 'yaml_db'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
