@@ -16,12 +16,8 @@ Rails.application.routes.draw do
 
 
   # resources :musics  TODO: musicsからartistを追加できるようにするまでは、musics単体の追加はできないようにする
-  resources :fan_comments
-  resources :reviews
   resources :artists do
-    resources :musics
-  end
-  resources :users
+    end
 
 
   # The priority is based upon order of creation: first created -> highest priority.
