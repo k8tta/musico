@@ -51,7 +51,7 @@
                 <p>title:<span class="h3"> <%= anime_detail.ed_title %></span></p>
                 <% if /\/watch\/([^&]+)/ =~ anime_detail.ed_movie  #niconico %>
                     <div class="nico_player">
-                      <script type="text/javascript" src="http://ext.nicovideo.jp/thumb_watch/<%= $1 %>"></script>
+                      <script type="text/javascript" src="//ext.nicovideo.jp/thumb_watch/<%= $1 %>"></script>
                       <noscript><a href="http://www.nicovideo.jp/watch/<%= $1 %>">ニコニコ動画リンク</a></noscript>
                     </div>
                 <% elsif /\?v=([^&]+)/ =~ anime_detail.ed_movie #youtube %>
