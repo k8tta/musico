@@ -17,15 +17,12 @@ gem 'yaml_db'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 # Use sqlite3 as the database for Active Record
-group :test, :development do
-  gem 'sqlite3'
-end
+gem 'sqlite3', groups: %w(test development), require: false
 
 # Use PostgreSQL for heroku (only production)
-group :production do
-  gem 'pg'
-  gem 'rails_12factor'
-end
+gem 'pg', groups: %w(production), require: false
+gem 'rails_12factor', groups: %w(production), require: false
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
