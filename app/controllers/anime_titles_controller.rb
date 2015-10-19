@@ -5,14 +5,20 @@ class AnimeTitlesController < ApplicationController
   # GET /anime_titles.json
   def index
     @anime_titles = AnimeTitle.all   #renderよりも先に書いておく
+
     render layout: 'applicationtitles'
   end
 
   # GET /anime_titles/1
   # GET /anime_titles/1.json
   def show
-    @anime_title = AnimeTitle.find(params[:id])
     @anime_details = @anime_title.anime_details  # @anime_title.[今のパス配下のid] のanime_detailsのみを参照する
+    render layout: 'applicationtitles'
+  end
+
+  # GET /anime_titles/titlelist
+  def titlelist
+    @anime_titles = AnimeTitle.all   #renderよりも先に書いておく
     render layout: 'applicationtitles'
   end
 

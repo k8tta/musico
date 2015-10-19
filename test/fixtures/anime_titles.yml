@@ -1,6 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-label1:
+kekkai:
   title: 血界戦線
   icon_url: http://www.famitsu.com/images/000/067/184/548062bf3e3ed.jpg
   icon: 
@@ -18,4 +18,29 @@ dyurarara2syo:
 jitsuha:
   title: 実は私は
   icon_url: http://com.res.nimg.jp/material/2864595/main.jpg
+  icon:
+
+guru:
+  title: 魔法陣グルグル
+  icon_url: http://livedoor.blogimg.jp/ridoairu/imgs/e/5/e570b874.jpg
+  icon:
+
+steins:
+  title: STEINS;GATE
+  icon_url: http://www.nitroplus.co.jp/assets_c/2011/04/110413_sg_anime-thumb-400x400-1673.jpg
+  icon:
+
+sofuteni:
+  title: そふてにっ
+  icon_url: http://darekare.jp/wp-content/uploads/2015/09/img_0%EF%BC%96%EF%BC%95%EF%BC%96.jpg
+  icon:
+
+guren:
+  title: 天元突破グレンラガン
+  icon_url: http://blog-imgs-43.fc2.com/i/p/h/iphonea/20110208101623685.jpg
+  icon:
+
+inukami:
+  title: いぬかみっ!
+  icon_url: https://images-na.ssl-images-amazon.com/images/I/51BlmtKxq6L.jpg
   icon:

@@ -1,0 +1,15 @@
+<!-- list 6 newest image -->
+<ul>
+  <% anime_titles.first(6).each do |anime_title| %>
+    <div class="col-lg-4 col-md-4 col-sm-4 gallery backgroundbrink">
+      <%= link_to({:controller => "anime_titles", :action => "show", :id => anime_title.id}) do %>
+        <div style = "background: url(<%= anime_title.icon_url %>) 50% 20% no-repeat;
+          background-size: cover; width: auto; height: 250px;">
+          <div class="btn btn-success thumbbutton">
+            <%= anime_title.title %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</ul>

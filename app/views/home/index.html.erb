@@ -14,10 +14,14 @@
 <section id="works"></section>
 <div class="container">
   <div class="row centered mt mb">
-    <h1>Hot Anime Titles</h1>
-    <!-- TODO 新着を出す -->
-    <%= render partial: 'anime_titles/highlight', locals: { anime_titles: @anime_titles } %>
+    <h1>New entry Anime Titles</h1>
+    <%= render partial: 'newest', locals: { anime_titles: @anime_titles } %>
   </div><! --/row -->
+  <div class="row centered mb">
+    <div>
+      <%= link_to('タイトルをもっと見る', {controller: :anime_titles, action: :index}, :class => 'btn btn-default btn-lg' ) %>
+    </div>
+  </div>
 </div><! --/container -->
 
 

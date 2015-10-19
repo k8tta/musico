@@ -5,19 +5,14 @@ Rails.application.routes.draw do
   # アニメインデックス
   resources :anime_titles do
     resources :anime_details
+    collection do
+      get :titlelist
+    end
   end
 
   #bootstrapサンプル用
   get '/about' => 'home#about'
   get '/works' => 'home#works'
-
-
-
-
-
-  # resources :musics  TODO: musicsからartistを追加できるようにするまでは、musics単体の追加はできないようにする
-  resources :artists do
-    end
 
 
   # The priority is based upon order of creation: first created -> highest priority.

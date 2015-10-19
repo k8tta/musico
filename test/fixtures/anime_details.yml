@@ -1,41 +1,151 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 kekkai1:
-  anime_title: label1
+  anime_title: kekkai
   profile: 原作：内藤泰弘（ジャンプSQ） 監督：松本理恵 脚本：古家和尚 音楽：岩崎太整 アニメーション製作：ボンズ
   op_title: Hello,world!
   op_artist: BUMP OF CHICKEN
-  op_movie: https://www.youtube.com/embed/rOU4YiuaxAM
+  op_movie: https://www.youtube.com/watch?v=rOU4YiuaxAM
   ed_title: シュガーソングとビターステップ
   ed_artist: UNISON SQUARE GARDEN
-  ed_movie: https://www.youtube.com/embed/3exsRhw3xt8
+  ed_movie: https://www.youtube.com/watch?v=3exsRhw3xt8
 
 gakkou1:
   anime_title: gakkou
   profile: 原作：海法紀光 x 千葉サドル（まんがタイムきららフォワード） 監督：安藤正臣 脚本：海法紀光 他 音楽：MOSAIC.WAV アニメーション製作：Lerche
   op_title: ふ・れ・ん・ど・し・た・い
   op_artist: 学園生活部（水瀬いのり、小澤亜季、Ｍ・Ａ・Ｏ、高橋季依）
-  op_movie: https://www.youtube.com/embed/UNjHxhljAck
+  op_movie: https://www.youtube.com/watch?v=UNjHxhljAck
   ed_title: ハーモナイズ・クローバー
   ed_artist: 黒崎真音
-  ed_movie: https://www.youtube.com/embed/c6hQUJsBPdg
+  ed_movie: https://www.youtube.com/watch?v=c6hQUJsBPdg
 
 dyurarara2syo1:
   anime_title: dyurarara2syo
   profile: 原作：成田良悟（電撃文庫） 監督：大森貴弘 シリーズ構成：高木登 音楽：吉森信 アニメーション製作：朱夏
   op_title: HEADHUNT
   op_artist: OKAMOTO'S
-  op_movie: https://www.youtube.com/embed/Yh7CLxsp26s
+  op_movie: https://www.youtube.com/watch?v=Yh7CLxsp26s
   ed_title: NEVER SAY NEVER
   ed_artist: THREE LIGHTS DOWN KINGS
-  ed_movie: https://www.youtube.com/embed/a3DR_8IneJo
+  ed_movie: https://www.youtube.com/watch?v=a3DR_8IneJo
 
 jitsuha1:
   anime_title: jitsuha
   profile: 原作：増田英二（週間少年チャンピオン） 監督：山本靖貴 脚本：山下憲一 アニメーション製作：トムス・エンタテインメント
   op_title: ひみつをちょーだい
   op_artist: アルスマグナ
-  op_movie: https://www.youtube.com/embed/_NRi9Nz_wSs
+  op_movie: https://www.youtube.com/watch?v=_NRi9Nz_wSs
   ed_title: 言えない　言えない
   ed_artist: Hilcrhyme
-  ed_movie: https://www.youtube.com/embed/2NyLCplhh04
+  ed_movie: https://www.youtube.com/watch?v=2NyLCplhh04
+
+guru1:
+  anime_title: guru
+  profile: 原作：衛藤ヒロユキ　監督：中西伸彰　制作：本橋浩一　音楽：中村暢之　アニメーション制作：日本アニメーション
+  op_title: MAGIC OF LOVE
+  op_artist: TOo's（鈴木蘭々）
+  op_movie: https://www.youtube.com/watch?v=fmO8bZlyK-U
+  ed_title: Wind Climbing 〜風にあそばれて〜
+  ed_artist: 奥井亜紀
+  ed_movie: https://www.youtube.com/watch?v=lRa95E0TdkQ
+
+guru2:
+  anime_title: guru
+  profile:
+  op_title: 晴れてハレルヤ
+  op_artist: 奥井亜紀
+  op_movie: https://www.youtube.com/watch?v=1krrSuG5inw
+  ed_title: もう止まらない
+  ed_artist: SLAP STICKS
+  ed_movie: https://www.youtube.com/watch?v=CS2U9IDDk9A
+
+steins1:
+  anime_title: steins
+  profile: 原作：5pb./Nitroplus（ゲーム）　監督：佐藤卓哉、浜崎博嗣（第25話のみ）　シリーズ構成：花田十輝　音楽：阿保剛、村上純　アニメーション制作：WHITE FOX
+  op_title: Hacking to the Gate
+  op_artist: いとうかなこ
+  op_movie: https://www.youtube.com/watch?v=sJEGb4MPV6I
+  ed_title: 刻司ル十二ノ盟約
+  ed_artist: ファンタズム（FES cv.榊原ゆい）
+  ed_movie: https://www.youtube.com/watch?v=E_q9maUnWes
+
+steins2:
+  anime_title: steins
+  profile:
+  op_title: Hacking to the Gate（23~24話）
+  op_artist: いとうかなこ
+  op_movie: https://www.youtube.com/watch?v=7b1rKpMg9Ks
+  ed_title: スカイクラッドの観測者（23話）
+  ed_artist: いとうかなこ
+  ed_movie: https://www.youtube.com/watch?v=MpA9lc0ezXA
+
+steins3:
+  anime_title: steins
+  profile:
+  op_title: "-"
+  op_artist:
+  op_movie:
+  ed_title: Another Heaven（24話）
+  ed_artist: いとうかなこ
+  ed_movie: https://www.youtube.com/watch?v=1uaCHFe4YKE
+
+sofuteni1:
+  anime_title: sofuteni
+  profile: 原作：あづち涼（月刊コミックブレイド）　監督・シリーズ構成：上坪亮樹　脚本：鴻野貴光、木村暢、石田健幸、黒田洋介　音楽：虹音（松田 彬人）　アニメーション制作：XEBEC
+  op_title: るーるぶっくを忘れちゃえ
+  op_artist: ULTRA-PRISM with 白玉中ソフトテニス部［春風明日菜（伊藤かな恵）、沢夏琴音（喜多村英梨）、秋山千歳（伊藤静）、冬川来栖（明坂聡美）、エリザベス・ウォーレン（矢作紗友里）］
+  op_movie: https://www.youtube.com/watch?v=RjjFmmBeMhw
+  ed_title: つまさきだち
+  ed_artist: 伊藤かな恵
+  ed_movie: https://www.youtube.com/watch?v=OjJpZexoicU
+
+guren1:
+  anime_title: guren
+  profile: 原作：GAINAX　監督：今石洋之　シリーズ構成：中島かずき　音楽：岩崎琢　アニメーション制作：GAINAX
+  op_title: 空色デイズ
+  op_artist: 中川翔子
+  op_movie: https://www.youtube.com/watch?v=3RWxtMft_zA
+  ed_title: UNDERGROUND
+  ed_artist: HIGH VOLTAGE
+  ed_movie: https://www.youtube.com/watch?v=AyFlycSVonU
+
+guren2:
+  anime_title: guren
+  profile:
+  op_title: 空色デイズ（17話〜）
+  op_artist: 中川翔子
+  op_movie: https://www.youtube.com/watch?v=RTdiA-A2UQ4
+  ed_title: みんなのピース
+  ed_artist: アフロマニア
+  ed_movie: https://www.youtube.com/watch?v=LXe17ZvszfQ
+
+guren3:
+  anime_title: guren
+  profile:
+  op_title: "-"
+  op_artist:
+  op_movie:
+  ed_title: happily ever after
+  ed_artist: 中川翔子
+  ed_movie: https://www.youtube.com/watch?v=3zhFr66gSZQ
+
+inukami1:
+  anime_title: inukami
+  profile: 原作：有沢まみず（電撃文庫）　監督：草川啓造　シリーズ構成：玉井☆豪　音楽：いぬかみっ!アンサンブル（菊地創）　アニメーション制作：セブン・アークス
+  op_title: ヒカリ
+  op_artist: 堀江由衣
+  op_movie: https://www.youtube.com/watch?v=AtslTXqWP5c
+  ed_title: 友情物語
+  ed_artist: Aice5
+  ed_movie: http://www.nicovideo.jp/watch/sm8539552
+
+inukami2:
+  anime_title: inukami
+  profile:
+  op_title: "-"
+  op_artist:
+  op_movie:
+  ed_title: 友情物語・男子(?)バージョン
+  ed_artist: すーぱーぞうさんず&Rice5
+  ed_movie: http://www.nicovideo.jp/watch/sm11256
